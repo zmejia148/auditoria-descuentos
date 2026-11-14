@@ -5,16 +5,12 @@
 
 ### Descripción
 
-Este proyecto presenta una auditoría estática de un módulo JavaScript encargado de calcular descuentos.
-
-El objetivo es identificar ambigüedades en los requisitos, detectar defectos mediante inspección del código y aplicar reglas de análisis estático utilizando ESLint.
+Este proyecto presenta una auditoría estática de un módulo JavaScript encargado de calcular descuentos, el cual tiene como objetivo identificar las ambigüedades en los requisitos, detectar defectos mediante inspección del código y aplicar reglas de análisis estático utilizando ESLint.
 
 ## Objetivos
 
-- Revisar los requisitos originales del módulo.
-- Proponer requisitos claros y verificables.
-- Elaborar un checklist de inspección.
-- Registrar hallazgos y su trazabilidad.
+- Revisar los requisitos originales del módulo proponiendo requisitos claros y verificables.
+- Elaborar un checklist de inspección en el cual se vayan registrando hallazgos y su trazabilidad.
 - Detectar problemas de codificación mediante ESLint.
 - Documentar las correcciones y los riesgos pendientes.
 
@@ -63,7 +59,7 @@ Para reproducir el análisis estático:
 ## Reglas de ESLint
 
 | Regla | Objetivo |
-|---|---|
+
 | no-var | Evitar declaraciones con var. |
 | eqeqeq | Exigir comparaciones estrictas. |
 | no-unused-vars | Identificar variables sin utilizar. |
@@ -83,13 +79,9 @@ Los resultados están disponibles en la carpeta evidencias.
 
 ## Inspección del código
 
-La inspección se desarrolló individualmente mediante una simulación académica de roles.
+La inspección se desarrolló individualmente mediante una simulación académica de roles, documentando ocho hallazgos agrupados, relacionados con prácticas de codificación, validaciones y reglas de negocio.
 
-Se documentaron ocho hallazgos agrupados, relacionados con prácticas de codificación, validaciones y reglas de negocio.
-
-Se corrigieron los problemas de estilo detectados por ESLint.
-
-Los hallazgos relacionados con descuentos VIP, promociones y validaciones funcionales permanecen pendientes de confirmación de requisitos.
+Se corrigieron los problemas de estilo detectados por ESLint. Los hallazgos relacionados con descuentos VIP, promociones y validaciones funcionales permanecen pendientes de confirmación de requisitos.
 
 ## Alcance y limitaciones
 
